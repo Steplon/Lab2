@@ -1,0 +1,19 @@
+﻿<Window x:Class="Exercise2_StackPanes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exercise2_StackPanes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Orientation="Horizontal">
+        <Button Content="Button A" Margin="10" Width="250" Height="100" Padding="20" FontSize="16"/>
+        <Button Content="Button B" Margin="10" Width="50" Height="100"/>
+        <Button Content="Button C" Margin="10" Width="50" Height="100"/>
+        <Button Content="Button D" Margin="10" Width="50" Height="100"/>
+        <Button Content="Button E" Margin="10" Width="50" Height="100"/>
+        <Button Content="Button F" Margin="10" Width="50" Height="100"/>
+
+
+    </StackPanel>
+</Window>
